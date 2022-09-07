@@ -1,0 +1,32 @@
+
+
+
+
+header{
+	display: grid;
+	grid-template-columns: 100%
+	
+	background-image: url(../assets/img/banner.jpg);
+	li{
+		list-style-type: none;
+		display: inline;
+		float: right;
+		font-family: fantasy;
+		font-size: 2rem
+	}
+}
+
+
+
+
+body{
+	background-image: var(--fondoWeb);  
+	display: grid;
+  grid-template-columns: 100%;
+ 	grid-row: auto;
+  grid-template-areas:
+  "header" "main" "footer" ;  
+  :root {
+  --fondoWeb: linear-gradient(to bottom, #b6ffff, #7cdaf9, #b6ffff); }
+
+}
