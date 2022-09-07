@@ -1,29 +1,37 @@
+$fondoheader: url(../assets/img/banner.jpg);
+
+header {
+    background-image: $fondoheader;
 
 
+    nav {
+        float: right;
+        font-family: fantasy;
+        margin: 1rem;
+        font-size: 3rem;
+        padding-right: 3rem;
 
 
-header{
-	display: grid;
-	grid-template-columns: 100%
-	grid-template-rows: auto auto auto auto;
-	grid-template-areas:
-	"header"
-	"article"
-	"main"
-	"footer";
+        li {
+            display: inline-block;
+            margin: 1rem;
+            border-radius: 1rem 1rem 1rem 1rem;
+            text-decoration-style: solid;
 
-	nav{
-	background-image: url(../assets/img/banner.jpg);}
-	
-	li{
-		list-style-type: none;
-		display: inline;
-		float: right;
-		font-family: fantasy;
-		font-size: 2rem
-	}
+            a {
+
+                color: #048387;
+
+                &:link,
+                a:visited,
+                a:active {
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+    }
 }
-
-
 
 

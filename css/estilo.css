@@ -2,64 +2,100 @@
 /*background-image: linear-gradient(#004173, #0979b0, #0cb7f2, #7cdaf9, #b6ffff);*/
 html {
   font-size: 62.5%;
-  font-family: sans-serif;
+  font-family: sans-serif; }
+
+body {
+  background-color: #7cdaf9; }
+
+body {
   color: #048387; }
+
+header {
+  background-image: url(../assets/img/banner.jpg); }
+  header nav {
+    float: right;
+    font-family: fantasy;
+    margin: 1rem;
+    font-size: 3rem;
+    padding-right: 3rem; }
+    header nav li {
+      display: inline-block;
+      margin: 1rem;
+      border-radius: 1rem 1rem 1rem 1rem;
+      text-decoration-style: solid; }
+      header nav li a {
+        color: #048387; }
+        header nav li a:link,
+        header nav li a a:visited,
+        header nav li a a:active {
+          text-decoration: none; }
+
+footer {
+  grid-area: footer;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-around; }
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 4rem; }
+
+h2 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem; }
+
+.bodyGrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "header" "article" "main" "footer"; }
 
 .indexMainGrid {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: auto auto;
-  grid-template-areas: "claseImgIndex1"  "claseImgIndex2" "claseImgIndex3" "claseImgIndex4" "claseImgIndex5" "claseImgIndex6";
-  max-width: 100%; }
+  grid-template-areas: "claseImgIndex1" "claseImgIndex2" "claseImgIndex3" "claseImgIndex4" "claseImgIndex5" "claseImgIndex6"; }
 
 .claseImgIndex1 {
-  display: grid;
-  justify-content: space-around;
   width: 50rem;
   height: 35rem;
   border-radius: 1rem 1rem 1rem 1rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  margin-left: 6.5rem; }
 
 .claseImgIndex2 {
-  display: grid;
-  justify-content: space-around;
   width: 50rem;
   height: 35rem;
   border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 3rem;
-  cursor: pointer; }
+  margin-left: 6.5rem; }
 
 .claseImgIndex3 {
-  justify-content: space-around;
   width: 50rem;
   height: 35rem;
   border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 3rem;
-  cursor: pointer; }
+  margin-left: 6.5rem; }
 
 .claseImgIndex4 {
-  display: grid;
-  justify-content: space-around;
   width: 50rem;
   height: 35rem;
   border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 3rem;
-  cursor: pointer; }
+  margin-left: 6.5rem; }
 
 .claseImgIndex5 {
-  display: grid;
-  justify-content: space-around;
   width: 50rem;
   height: 35rem;
   border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 3rem;
-  cursor: pointer; }
+  margin-left: 6.5rem; }
 
 .claseImgIndex6 {
-  display: grid;
-  justify-content: space-around;
   width: 50rem;
   height: 35rem;
   border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 3rem;
-  cursor: pointer; }
+  margin-left: 6.5rem; }

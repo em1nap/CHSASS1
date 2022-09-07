@@ -1,82 +1,84 @@
 /* color fonts usables #048387 #fda94a #b6e0ec #ff8802 #04abab */
 /*background-image: linear-gradient(#004173, #0979b0, #0cb7f2, #7cdaf9, #b6ffff);*/
 
-html{
+html {
 	font-size: 62.5%;
 	font-family: sans-serif;
-	color: #048387;
-}	
+	}
 
+@import "colores.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "textos.scss";
 
-.indexMainGrid{
+.bodyGrid {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas:
+		"header"
+		"article"
+		"main"
+		"footer";
+}
+
+.indexMainGrid {
 	display: grid;
 	grid-template-columns: 33.3% 33.3% 33.3%;
 	grid-template-rows: auto auto;
-	grid-template-areas: 
-	"claseImgIndex1" 
-	"claseImgIndex2"
-	"claseImgIndex3"
-	"claseImgIndex4"
- 	"claseImgIndex5"
- 	"claseImgIndex6";
- 	max-width: 100%;
+	grid-template-areas:
+		"claseImgIndex1"
+		"claseImgIndex2"
+		"claseImgIndex3"
+		"claseImgIndex4"
+		"claseImgIndex5"
+		"claseImgIndex6";
 }
 
 .claseImgIndex1 {
-    display: grid;
-    justify-content: space-around;
-    width: 50rem;
-    height: 35rem;
-    border-radius: 1rem 1rem 1rem 1rem;
-    margin-bottom: 3rem;
-}
-
-.claseImgIndex2{                  
-	display: grid;
-	justify-content: space-around;
 	width: 50rem;
 	height: 35rem;
 	border-radius: 1rem 1rem 1rem 1rem;
 	margin-bottom: 3rem;
-	cursor: pointer;
+	margin-left: 6.5rem;
 }
 
-.claseImgIndex3{                  
-	justify-content: space-around;
+.claseImgIndex2 {
 	width: 50rem;
 	height: 35rem;
 	border-radius: 1rem 1rem 1rem 1rem;
 	margin-bottom: 3rem;
-	cursor: pointer;
+	margin-left: 6.5rem;
 }
 
-.claseImgIndex4{                 
-	display: grid;
-	justify-content: space-around;
+.claseImgIndex3 {
 	width: 50rem;
 	height: 35rem;
 	border-radius: 1rem 1rem 1rem 1rem;
 	margin-bottom: 3rem;
-	cursor: pointer;
+	margin-left: 6.5rem;
 }
 
-.claseImgIndex5{                   
-	display: grid;
-	justify-content: space-around;
+.claseImgIndex4 {
 	width: 50rem;
 	height: 35rem;
 	border-radius: 1rem 1rem 1rem 1rem;
 	margin-bottom: 3rem;
-	cursor: pointer;
+	margin-left: 6.5rem;
 }
 
-.claseImgIndex6{                  
-	display: grid;
-	justify-content: space-around;
+.claseImgIndex5 {
 	width: 50rem;
 	height: 35rem;
 	border-radius: 1rem 1rem 1rem 1rem;
 	margin-bottom: 3rem;
-	cursor: pointer;
+	margin-left: 6.5rem;
 }
 
+.claseImgIndex6 {
+	width: 50rem;
+	height: 35rem;
+	border-radius: 1rem 1rem 1rem 1rem;
+	margin-bottom: 3rem;
+	margin-left: 6.5rem;
+}
