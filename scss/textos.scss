@@ -1,16 +1,18 @@
-
-
-
-h1{ 
+h1 {
     display: flex;
-	justify-content: space-around;
-	font-size: 4rem;
-    
+    justify-content: space-around;
+    font-size: 4rem;
+
 }
 
-h2{ 
+h2 {
     display: flex;
-	justify-content: flex-end;
+    justify-content: space-around;
     font-size: 3rem;
 }
 
+p {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+}

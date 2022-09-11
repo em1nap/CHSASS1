@@ -43,7 +43,12 @@ h1 {
 
 h2 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  font-size: 3rem; }
+
+p {
+  display: flex;
+  justify-content: space-around;
   font-size: 3rem; }
 
 .bodyGrid {
@@ -99,3 +104,11 @@ h2 {
   border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 3rem;
   margin-left: 6.5rem; }
+
+.logosRRSS {
+  padding: 1rem;
+  padding-left: 2.5rem; }
+
+.logoNav {
+  padding-left: 13rem;
+  padding-top: 2rem; }

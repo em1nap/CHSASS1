@@ -1,9 +1,11 @@
-$colorbody:#7cdaf9;
+$colorbody: #7cdaf9;
 
-body{background-color: $colorbody
+body {
+    background-color: $colorbody
 }
 
-$colorfont:#048387;
+$colorfont: #048387;
 
-body {color:$colorfont}
-
+body {
+    color: $colorfont
+}
