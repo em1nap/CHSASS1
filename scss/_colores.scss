@@ -1,0 +1,11 @@
+$colorbody: linear-gradient(25deg, #b6ffff, #7cdaf9, #b6ffff);
+
+body {
+    background-image: $colorbody
+}
+
+$colorfont: #048387;
+
+body {
+    color: $colorfont
+}

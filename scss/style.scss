@@ -1,95 +1,213 @@
 /* color fonts usables #048387 #fda94a #b6e0ec #ff8802 #04abab */
 /*background-image: linear-gradient(#004173, #0979b0, #0cb7f2, #7cdaf9, #b6ffff);*/
-
-html {
-	font-size: 62.5%;
-	font-family: sans-serif;
-}
-
-@import "colores.scss";
 @import "header.scss";
-@import "footer.scss";
-@import "textos.scss";
+@import "colores.scss";
 
-.bodyGrid {
+
+
+.serviciosMainGrid {
+	margin-top: 5rem;
 	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 66% 33%;
+	grid-template-rows: 33% 33% 33%;
 	grid-template-areas:
-		"header"
-		"article"
-		"main"
-		"footer";
+		"cuidadoresServicios"
+		"trasladosServicios"
+		"paseadoresServicios"
+		"guarderiasServicios"
+		"peluqueriaServicios"
+		"veterinariaServicios";
 }
 
-.indexMainGrid {
-	display: grid;
-	grid-template-columns: 33.3% 33.3% 33.3%;
-	grid-template-rows: auto auto;
-	grid-template-areas:
-		"claseImgIndex1"
-		"claseImgIndex2"
-		"claseImgIndex3"
-		"claseImgIndex4"
-		"claseImgIndex5"
-		"claseImgIndex6";
+.marginXservicios {
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
-.claseImgIndex1 {
-	width: 50rem;
-	height: 35rem;
+.cuidadoresServicios {
+	cursor: pointer;
+	@extend .marginXservicios;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
 	border-radius: 1rem 1rem 1rem 1rem;
-	margin-bottom: 3rem;
-	margin-left: 6.5rem;
+	border: solid;
+	border-top-color: #048387;
+	border-right-color: #048387;
+	border-bottom-color: #048387;
+	border-left-color: #048387;
 }
 
-.claseImgIndex2 {
-	width: 50rem;
-	height: 35rem;
+.trasladosServicios {
+	cursor: pointer;
+	margin-top: 6rem;
+	@extend .marginXservicios;
+	margin-bottom: 1rem;
 	border-radius: 1rem 1rem 1rem 1rem;
-	margin-bottom: 3rem;
-	margin-left: 6.5rem;
+	border: solid;
+	border-top-color: #048387;
+	border-right-color: #048387;
+	border-bottom-color: #048387;
+	border-left-color: #048387;
 }
 
-.claseImgIndex3 {
-	width: 50rem;
-	height: 35rem;
+.paseadoresServicios {
+	cursor: pointer;
+	margin-top: 6rem;
+	@extend .marginXservicios;
+	margin-bottom: -24rem;
 	border-radius: 1rem 1rem 1rem 1rem;
-	margin-bottom: 3rem;
-	margin-left: 6.5rem;
+	border: solid;
+	border-top-color: #048387;
+	border-right-color: #048387;
+	border-bottom-color: #048387;
+	border-left-color: #048387;
 }
 
-.claseImgIndex4 {
-	width: 50rem;
-	height: 35rem;
+.guarderiasServicios {
+	cursor: pointer;
+	margin-top: 30rem;
+	@extend .marginXservicios;
+	margin-bottom: 5rem;
 	border-radius: 1rem 1rem 1rem 1rem;
-	margin-bottom: 3rem;
-	margin-left: 6.5rem;
+	border: solid;
+	border-top-color: #048387;
+	border-right-color: #048387;
+	border-bottom-color: #048387;
+	border-left-color: #048387;
 }
 
-.claseImgIndex5 {
-	width: 50rem;
-	height: 35rem;
+.peluqueriasServicios {
+	cursor: pointer;
+	margin-top: 5rem;
+	@extend .marginXservicios;
+	margin-bottom: -16rem;
 	border-radius: 1rem 1rem 1rem 1rem;
-	margin-bottom: 3rem;
-	margin-left: 6.5rem;
+	border: solid;
+	border-top-color: #048387;
+	border-right-color: #048387;
+	border-bottom-color: #048387;
+	border-left-color: #048387;
 }
 
-.claseImgIndex6 {
-	width: 50rem;
-	height: 35rem;
+.veterinariaServicios {
+	cursor: pointer;
+	margin-top: 21rem;
+	@extend .marginXservicios;
+	margin-bottom: 2rem;
 	border-radius: 1rem 1rem 1rem 1rem;
-	margin-bottom: 3rem;
-	margin-left: 6.5rem;
+	border: solid;
+	border-top-color: #048387;
+	border-right-color: #048387;
+	border-bottom-color: #048387;
+	border-left-color: #048387;
 }
 
-.logosRRSS {
-	padding: 1rem;
-	padding-left: 2.5rem;
-}
 
-.logoNav{
-	padding-left: 13rem;
-	padding-top: 2rem;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+	.serviciosMainGrid {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: auto auto auto auto auto auto;
+		grid-template-areas:
+			"cuidadoresServicios"
+			"trasladosServicios"
+			"paseadoresServicios"
+			"guarderiasServicios"
+			"peluqueriaServicios"
+			"veterinariaServicios";
+	}
+
+	.cuidadoresServicios {
+		margin-bottom: 1rem;
+		@extend .marginXservicios;
+		border-radius: 1rem 1rem 1rem 1rem;
+		border: solid;
+		border-top-color: #048387;
+		border-right-color: #048387;
+		border-bottom-color: #048387;
+		border-left-color: #048387;
+	}
+
+	.trasladosServicios {
+		margin-bottom: 1rem;
+		@extend .marginXservicios;
+		border-radius: 1rem 1rem 1rem 1rem;
+		border: solid;
+		border-top-color: #048387;
+		border-right-color: #048387;
+		border-bottom-color: #048387;
+		border-left-color: #048387;
+	}
+
+	.paseadoresServicios {
+		margin-bottom: 30rem;
+		@extend .marginXservicios;
+		margin-top: 5rem;
+		border-radius: 1rem 1rem 1rem 1rem;
+		border: solid;
+		border-top-color: #048387;
+		border-right-color: #048387;
+		border-bottom-color: #048387;
+		border-left-color: #048387;
+	}
+
+	.guarderiasServicios {
+		margin-bottom: 1rem;
+		@extend .marginXservicios;
+		margin-top: -25rem;
+		border-radius: 1rem 1rem 1rem 1rem;
+		border: solid;
+		border-top-color: #048387;
+		border-right-color: #048387;
+		border-bottom-color: #048387;
+		border-left-color: #048387;
+	}
+
+	.peluqueriasServicios {
+		margin-bottom: 1rem;
+		@extend .marginXservicios;
+		margin-top: 5rem;
+		border-radius: 1rem 1rem 1rem 1rem;
+		border: solid;
+		border-top-color: #048387;
+		border-right-color: #048387;
+		border-bottom-color: #048387;
+		border-left-color: #048387;
+	}
+
+	.veterinariaServicios {
+		margin-bottom: 1rem;
+		@extend .marginXservicios;
+		margin-top: 5rem;
+		border-radius: 1rem 1rem 1rem 1rem;
+		border: solid;
+		border-top-color: #048387;
+		border-right-color: #048387;
+		border-bottom-color: #048387;
+		border-left-color: #048387;
+	}
+
+}

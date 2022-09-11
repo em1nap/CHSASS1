@@ -1,0 +1,9 @@
+$fondoheader: url(../assets/img/banner.jpg);
+
+header {
+    background-image: $fondoheader;
+    
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
