@@ -142,7 +142,6 @@
 
 	.cuidadoresServicios {
 		margin-bottom: 1rem;
-		@extend .marginXservicios;
 		border-radius: 1rem 1rem 1rem 1rem;
 		border: solid;
 		border-top-color: #048387;
@@ -153,7 +152,6 @@
 
 	.trasladosServicios {
 		margin-bottom: 1rem;
-		@extend .marginXservicios;
 		border-radius: 1rem 1rem 1rem 1rem;
 		border: solid;
 		border-top-color: #048387;
@@ -164,7 +162,6 @@
 
 	.paseadoresServicios {
 		margin-bottom: 30rem;
-		@extend .marginXservicios;
 		margin-top: 5rem;
 		border-radius: 1rem 1rem 1rem 1rem;
 		border: solid;
@@ -176,7 +173,6 @@
 
 	.guarderiasServicios {
 		margin-bottom: 1rem;
-		@extend .marginXservicios;
 		margin-top: -25rem;
 		border-radius: 1rem 1rem 1rem 1rem;
 		border: solid;
@@ -188,7 +184,6 @@
 
 	.peluqueriasServicios {
 		margin-bottom: 1rem;
-		@extend .marginXservicios;
 		margin-top: 5rem;
 		border-radius: 1rem 1rem 1rem 1rem;
 		border: solid;
@@ -200,7 +195,6 @@
 
 	.veterinariaServicios {
 		margin-bottom: 1rem;
-		@extend .marginXservicios;
 		margin-top: 5rem;
 		border-radius: 1rem 1rem 1rem 1rem;
 		border: solid;
