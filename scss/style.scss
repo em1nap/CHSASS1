@@ -4,7 +4,7 @@
 @import "colores.scss";
 @import "extends.scss";
 @import "maps.scss";
-
+@import "gridservicios.scss";
 
 .serviciosMainGrid {
 	margin-top: 5rem;
@@ -22,8 +22,8 @@
 
 .cuidadoresServicios {
 	cursor: pointer;
-	margin-top: 0rem;
 	@extend .marginXservicios;
+	margin-top: 0rem;
 	margin-bottom: 1rem;
 	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
@@ -35,8 +35,8 @@
 
 .trasladosServicios {
 	cursor: pointer;
-	margin-top: 6rem;
 	@extend .marginXservicios;
+	margin-top: 6rem;
 	margin-bottom: 1rem;
 	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
@@ -48,8 +48,8 @@
 
 .paseadoresServicios {
 	cursor: pointer;
-	margin-top: 6rem;
 	@extend .marginXservicios;
+	margin-top: 6rem;
 	margin-bottom: -24rem;
 	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
@@ -61,8 +61,8 @@
 
 .guarderiasServicios {
 	cursor: pointer;
-	margin-top: 30rem;
 	@extend .marginXservicios;
+	margin-top: 30rem;
 	margin-bottom: 5rem;
 	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
@@ -74,8 +74,8 @@
 
 .peluqueriasServicios {
 	cursor: pointer;
-	margin-top: 5rem;
 	@extend .marginXservicios;
+	margin-top: 5rem;
 	margin-bottom: -16rem;
 	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
@@ -87,8 +87,8 @@
 
 .veterinariaServicios {
 	cursor: pointer;
-	margin-top: 21rem;
 	@extend .marginXservicios;
+	margin-top: 21rem;
 	margin-bottom: 2rem;
 	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
