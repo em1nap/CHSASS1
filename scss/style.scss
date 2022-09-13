@@ -2,7 +2,8 @@
 /*background-image: linear-gradient(#004173, #0979b0, #0cb7f2, #7cdaf9, #b6ffff);*/
 @import "header.scss";
 @import "colores.scss";
-
+@import "extends.scss";
+@import "maps.scss";
 
 
 .serviciosMainGrid {
@@ -19,22 +20,17 @@
 		"veterinariaServicios";
 }
 
-.marginXservicios {
-	margin-left: 1rem;
-	margin-right: 1rem;
-}
-
 .cuidadoresServicios {
 	cursor: pointer;
-	@extend .marginXservicios;
 	margin-top: 0rem;
+	@extend .marginXservicios;
 	margin-bottom: 1rem;
-	border-radius: 1rem 1rem 1rem 1rem;
+	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
-	border-top-color: #048387;
-	border-right-color: #048387;
-	border-bottom-color: #048387;
-	border-left-color: #048387;
+	border-top-color: map-get($estiloborder, color);
+	border-right-color: map-get($estiloborder, color);
+	border-bottom-color: map-get($estiloborder, color);
+	border-left-color: map-get($estiloborder, color);
 }
 
 .trasladosServicios {
@@ -42,12 +38,12 @@
 	margin-top: 6rem;
 	@extend .marginXservicios;
 	margin-bottom: 1rem;
-	border-radius: 1rem 1rem 1rem 1rem;
+	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
-	border-top-color: #048387;
-	border-right-color: #048387;
-	border-bottom-color: #048387;
-	border-left-color: #048387;
+	border-top-color: map-get($estiloborder, color);
+	border-right-color: map-get($estiloborder, color);
+	border-bottom-color: map-get($estiloborder, color);
+	border-left-color: map-get($estiloborder, color);
 }
 
 .paseadoresServicios {
@@ -55,12 +51,12 @@
 	margin-top: 6rem;
 	@extend .marginXservicios;
 	margin-bottom: -24rem;
-	border-radius: 1rem 1rem 1rem 1rem;
+	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
-	border-top-color: #048387;
-	border-right-color: #048387;
-	border-bottom-color: #048387;
-	border-left-color: #048387;
+	border-top-color: map-get($estiloborder, color);
+	border-right-color: map-get($estiloborder, color);
+	border-bottom-color: map-get($estiloborder, color);
+	border-left-color: map-get($estiloborder, color);
 }
 
 .guarderiasServicios {
@@ -68,12 +64,12 @@
 	margin-top: 30rem;
 	@extend .marginXservicios;
 	margin-bottom: 5rem;
-	border-radius: 1rem 1rem 1rem 1rem;
+	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
-	border-top-color: #048387;
-	border-right-color: #048387;
-	border-bottom-color: #048387;
-	border-left-color: #048387;
+	border-top-color: map-get($estiloborder, color);
+	border-right-color: map-get($estiloborder, color);
+	border-bottom-color: map-get($estiloborder, color);
+	border-left-color: map-get($estiloborder, color);
 }
 
 .peluqueriasServicios {
@@ -81,12 +77,12 @@
 	margin-top: 5rem;
 	@extend .marginXservicios;
 	margin-bottom: -16rem;
-	border-radius: 1rem 1rem 1rem 1rem;
+	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
-	border-top-color: #048387;
-	border-right-color: #048387;
-	border-bottom-color: #048387;
-	border-left-color: #048387;
+	border-top-color: map-get($estiloborder, color);
+	border-right-color: map-get($estiloborder, color);
+	border-bottom-color: map-get($estiloborder, color);
+	border-left-color: map-get($estiloborder, color);
 }
 
 .veterinariaServicios {
@@ -94,12 +90,12 @@
 	margin-top: 21rem;
 	@extend .marginXservicios;
 	margin-bottom: 2rem;
-	border-radius: 1rem 1rem 1rem 1rem;
+	border-radius: map-get($estiloborder, radioborde);
 	border: solid;
-	border-top-color: #048387;
-	border-right-color: #048387;
-	border-bottom-color: #048387;
-	border-left-color: #048387;
+	border-top-color: map-get($estiloborder, color);
+	border-right-color: map-get($estiloborder, color);
+	border-bottom-color: map-get($estiloborder, color);
+	border-left-color: map-get($estiloborder, color);
 }
 
 

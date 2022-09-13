@@ -11,6 +11,10 @@ body {
 body {
   color: #048387; }
 
+.marginXservicios, .cuidadoresServicios, .trasladosServicios, .paseadoresServicios, .guarderiasServicios, .peluqueriasServicios, .veterinariaServicios {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
 .serviciosMainGrid {
   margin-top: 5rem;
   display: grid;
@@ -18,15 +22,11 @@ body {
   grid-template-rows: 33% 33% 33%;
   grid-template-areas: "cuidadoresServicios" "trasladosServicios" "paseadoresServicios" "guarderiasServicios" "peluqueriaServicios" "veterinariaServicios"; }
 
-.marginXservicios, .cuidadoresServicios, .trasladosServicios, .paseadoresServicios, .guarderiasServicios, .peluqueriasServicios, .veterinariaServicios {
-  margin-left: 1rem;
-  margin-right: 1rem; }
-
 .cuidadoresServicios {
   cursor: pointer;
   margin-top: 0rem;
   margin-bottom: 1rem;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   border: solid;
   border-top-color: #048387;
   border-right-color: #048387;
@@ -37,7 +37,7 @@ body {
   cursor: pointer;
   margin-top: 6rem;
   margin-bottom: 1rem;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   border: solid;
   border-top-color: #048387;
   border-right-color: #048387;
@@ -48,7 +48,7 @@ body {
   cursor: pointer;
   margin-top: 6rem;
   margin-bottom: -24rem;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   border: solid;
   border-top-color: #048387;
   border-right-color: #048387;
@@ -59,7 +59,7 @@ body {
   cursor: pointer;
   margin-top: 30rem;
   margin-bottom: 5rem;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   border: solid;
   border-top-color: #048387;
   border-right-color: #048387;
@@ -70,7 +70,7 @@ body {
   cursor: pointer;
   margin-top: 5rem;
   margin-bottom: -16rem;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   border: solid;
   border-top-color: #048387;
   border-right-color: #048387;
@@ -81,7 +81,7 @@ body {
   cursor: pointer;
   margin-top: 21rem;
   margin-bottom: 2rem;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   border: solid;
   border-top-color: #048387;
   border-right-color: #048387;
