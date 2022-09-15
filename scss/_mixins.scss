@@ -1,0 +1,68 @@
+@media only screen and (max-width: 768px) {
+
+    @mixin estilosmobile {
+        border: solid;
+        border-top-color: #048387;
+        border-right-color: #048387;
+        border-bottom-color: #048387;
+        border-left-color: #048387;
+
+    }
+
+    .serviciosMainGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas:
+            "cuidadoresServicios"
+            "trasladosServicios"
+            "paseadoresServicios"
+            "guarderiasServicios"
+            "peluqueriaServicios"
+            "veterinariaServicios";
+    }
+
+    .cuidadoresServicios {
+        margin-bottom: 1rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        @include estilosmobile;
+    }
+
+    .trasladosServicios {
+        margin-bottom: 1rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        @include estilosmobile;
+    }
+
+    .paseadoresServicios {
+        margin-bottom: 30rem;
+        margin-top: 5rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        @include estilosmobile;
+
+    }
+
+    .guarderiasServicios {
+        margin-bottom: 1rem;
+        margin-top: -25rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        @include estilosmobile;
+
+    }
+
+    .peluqueriasServicios {
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        @include estilosmobile;
+
+    }
+
+    .veterinariaServicios {
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+        @include estilosmobile;
+
+    }
+}
