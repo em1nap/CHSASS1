@@ -27,6 +27,15 @@ body {
   margin-right: 1rem;
 }
 
+.bodyGridServicios {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "article"
+    "main"
+    "footer";
+}
+
 .serviciosMainGrid {
   margin-top: 5rem;
   display: grid;
@@ -38,6 +47,10 @@ body {
     "guarderiasServicios"
     "peluqueriaServicios"
     "veterinariaServicios";
+}
+
+.textServices {
+  margin-left: 5rem;
 }
 
 .cuidadoresServicios {
@@ -107,6 +120,13 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .bodyGridServicios {
+    display: flex;
+    flex-direction: column;
+  }
+
+
   .serviciosMainGrid {
     display: grid;
     grid-template-columns: 100%;
@@ -192,5 +212,11 @@ body {
     transform: scale(1.025);
     box-shadow: rgba(3, 71, 12, 0.986) 0px 5px 10px
   }
+
+
+
+
+
+
 
 }
